@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="FilterTypeNames">
+        <item>@string/filter_everything</item>
+        <item>@string/filter_documents</item>
+        <item>@string/filter_spreadsheets</item>
+        <item>@string/filter_presentations</item>
+    </array>
+    <array name="FilterTypeStringValues">
+        <item>-1</item>
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="SortModeNames">
+        <item>@string/sort_az</item>
+        <item>@string/sort_za</item>
+        <item>@string/sort_oldest</item>
+        <item>@string/sort_newest</item>
+        <item>@string/sort_largest</item>
+        <item>@string/sort_smallest</item>
+    </array>
+    <array name="SortModeStringValues">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+</resources>

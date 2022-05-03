@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="22.05.0.1-debug" android:installLocation="auto" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="org.libreoffice.androidapp.debug" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30"/>
+    <uses-feature android:glEsVersion="0x20000" android:required="true"/>
+    <uses-feature android:name="android.hardware.usb.host" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application android:theme="@style/LibreOfficeTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.google.android.play.core.missingsplits.MissingSplitsDetectingApplication" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity android:name="org.libreoffice.androidlib.SlideShowActivity" android:screenOrientation="sensorLandscape" android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:label="@string/app_name" android:name="org.libreoffice.androidapp.ui.LibreOfficeUIActivity" android:configChanges="screenSize|uiMode|screenLayout|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.libreoffice.androidlib.LOActivity" android:launchMode="singleTask" android:configChanges="screenSize|screenLayout|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.text"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.graphics"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.presentation"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.spreadsheet"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.text-flat-xml"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.graphics-flat-xml"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.presentation-flat-xml"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.spreadsheet-flat-xml"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.text-template"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.spreadsheet-template"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.graphics-template"/>
+                <data android:mimeType="application/vnd.oasis.opendocument.presentation-template"/>
+                <data android:mimeType="application/rtf"/>
+                <data android:mimeType="text/rtf"/>
+                <data android:mimeType="application/msword"/>
+                <data android:mimeType="application/vnd.ms-powerpoint"/>
+                <data android:mimeType="application/vnd.ms-excel"/>
+                <data android:mimeType="application/vnd.visio"/>
+                <data android:mimeType="application/vnd.visio.xml"/>
+                <data android:mimeType="application/x-mspublisher"/>
+                <data android:mimeType="application/vnd.ms-excel.sheet.binary.macroenabled.12"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.slideshow"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.template"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.template"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.template"/>
+                <data android:mimeType="text/csv"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="text/comma-separated-values"/>
+                <data android:mimeType="application/vnd.ms-works"/>
+                <data android:mimeType="application/vnd.apple.keynote"/>
+                <data android:mimeType="application/x-abiword"/>
+                <data android:mimeType="application/x-pagemaker"/>
+                <data android:mimeType="image/x-emf"/>
+                <data android:mimeType="image/x-svm"/>
+                <data android:mimeType="image/x-wmf"/>
+                <data android:mimeType="image/svg+xml"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:host="*"/>
+                <data android:mimeType="*/*"/>
+                <data android:pathPattern=".*\\.odt"/>
+                <data android:pathPattern=".*\\..*\\.odt"/>
+                <data android:pathPattern=".*\\..*\\..*\\.odt"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.odt"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.odt"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.odt"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.odt"/>
+                <data android:pathPattern=".*\\.ods"/>
+                <data android:pathPattern=".*\\..*\\.ods"/>
+                <data android:pathPattern=".*\\..*\\..*\\.ods"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.ods"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.ods"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.ods"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.ods"/>
+                <data android:pathPattern=".*\\.odp"/>
+                <data android:pathPattern=".*\\..*\\.odp"/>
+                <data android:pathPattern=".*\\..*\\..*\\.odp"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.odp"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.odp"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.odp"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.odp"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_show_html" android:name="org.libreoffice.androidapp.ShowHTMLActivity" android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/Theme.AppCompat.Light" android:label="@string/app_name_settings" android:name="org.libreoffice.androidapp.SettingsActivity" android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"/>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="org.libreoffice.androidapp.debug.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:enabled="false" android:exported="false" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true" android:launchMode="singleInstance"/>
+        <activity android:theme="@style/Theme_PlayCore_Transparent" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:enabled="false" android:exported="false" android:stateNotNeeded="true"/>
+        <service android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService" android:enabled="false" android:exported="true"/>
+    </application>
+</manifest>

@@ -1,0 +1,1595 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../../../browser/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "signature": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
+        "signature": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "signature": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "signature": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "signature": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "signature": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/Leaflet.js": {
+        "version": "1b39f91062673d4cce9293735c84badf67a57e8a8ba3fcce98b57bb95c610fe7",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/copyright.js": {
+        "version": "eefacc0711b98537df2e825edf7696090db9ecaeaac3d965a858554983c216a6",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/src/docstate.js": {
+        "version": "f619a7adad1c6360d0632d38d55fcc999700fdfa99a244bac393784bfde5aa79",
+        "signature": "603ae01cdb77859e639f87ba1301118771df7976603f3006c12498c8e7bae473",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/errormessages.js": {
+        "version": "b594edb9c871d4af08c1cd89f067d0a5466a8d0aa2e1cf65111698b869e9d4d0",
+        "signature": "af3d8d68cd117586a003bbf02752ac91d6e904b8124b3ce70b9ef05ecbc07e24",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/main.js": {
+        "version": "13c85c2964d11228b18218cbde3c725a4d1dea9c34b7bb6edaae49bb587d4037",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/unocommands.js": {
+        "version": "34e7add5518932767b5571d39503be22dc32624d9958a906c5ba60eee6141dd9",
+        "signature": "080518a0e53a33d3cff0bbee68951a47455610d22ee3140067a433d92b4622c5",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/UNO/Key.js": {
+        "version": "14f9705f5b4922195e8098384197607d2a5ecc3ae8078d6ce9a2b8c0e4aa9afb",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/ColorPicker.js": {
+        "version": "3911f9e1594d8711e189a52d0f899b1aff6b928f013d3fbe204214f4b87ea0b1",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.AlertDialog.js": {
+        "version": "9b2c2628a8e595df0a39524a666805a3b197102fcda9c7618ef9631b21ebe0f7",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Attribution.js": {
+        "version": "533b5c00e811e70cf390ffeffb2430682e34d167616fd82bcde7461e5a26fca9",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.ColumnGroup.js": {
+        "version": "24bfec2df408d8b324a3a5bad696cae178a2c42be55feb4186abfeeb5ca54474",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.ColumnHeader.js": {
+        "version": "f8ea0429adc7109b34392c35492fe086593d01024831be18e6694331c9132e0b",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Command.js": {
+        "version": "0385dc7639d6d5465f4e55dfbc21da775380eba7b0c5cc7e3213da37916019bb",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.ContextMenu.js": {
+        "version": "6f73ee0745b69b535eba911c388f0c625b60f1497aaff7312e0ac38562550bc8",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.CornerGroup.js": {
+        "version": "da8f50ca7c873cce92a917c5ce46028509a4735d2f7aac403ed28834afb78bcd",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.CornerHeader.js": {
+        "version": "1d8eceba44e3625664072b137aab5b67e49bc8e7ace8916e9f507b400c85af77",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.DocumentNameInput.js": {
+        "version": "5118af9d0a9093be61423cf5da4c356852a849e64949e82f16745a4c1d8ce2d2",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.DocumentRepair.js": {
+        "version": "23b0a37e7fb7a8c26293c21d98eb7d41a49cac156e78ba849178bd5a58fef43a",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.DownloadProgress.js": {
+        "version": "7b15329e0c13b27652c16476a891ea51edb244597f79cbeebb858dcc721f3f2f",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.FormulaBar.js": {
+        "version": "4bcb2bf5c425aa7b67014df46f40109f6418f9b22257f888ec2eb6499b6d8b2e",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.FormulaBarJSDialog.js": {
+        "version": "0d9d61ea3dae3244b5692eac44f63f10bad72116a3cfe5a25af1e08e1f475ee0",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.GroupBase.js": {
+        "version": "72d58b8fdf9dca53e9247ca70582a300d5f8d5f9afccf0f9ac0d518b136f055a",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Header.js": {
+        "version": "1678cb6672feea80e085d4af079a2ef9e749ad8ba6cb1b5bad18f8c3dd285569",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Infobar.js": {
+        "version": "0b8d005341cfb1a47eb5eb5778e5474a4626b1a6abda90ddac1b266e260a2ad3",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.JSDialog.js": {
+        "version": "97b38795296439b1e660ba9f2ef423529c7ca157e0abc0b3a088886156109391",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.JSDialogBuilder.js": {
+        "version": "613d5efc33262d17d1e874eb8594d161ede3f84abeaa2a0f7d2c688e23834950",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.LanguageDialog.js": {
+        "version": "d9fd8b5555ece35671345468c935e4bce3c4cd8795be00bd16e9a3222c3188f4",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Layers.js": {
+        "version": "21027cbd21e8421cf21d3991f1e2565bdc4cee0da1f22d310e7ee0bb88de8bad",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.LokDialog.js": {
+        "version": "fb51772a4091a0e8eb046baa76e6602ca69d5201c578986dc3f2868d5814fa6f",
+        "signature": "87c24cae1f70887c8e65aa5991314a24a53c7692c9e3d79508722b8ade462bb6",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Menubar.js": {
+        "version": "114fd572286cbabd015f9e15bdfbd2bca4371bcef8e8feb6013bc2d03cd1a587",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.MobileBottomBar.js": {
+        "version": "04a3cf70892e65d4cd343b9b0089b2ad9d76884c78ddaf90d47cb125eef9592f",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.MobileSlide.js": {
+        "version": "ae8860ee119a64f8cdad5c758bc5e20d60fd10df91272b59ac07344490d18fe7",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.MobileTopBar.js": {
+        "version": "b3d66f5774b6016a519c4997e9868904d58ad5ed4449a7ae17f2581c867e9b77",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.MobileWizard.js": {
+        "version": "c67f6da345f0a1eb79adc1aa2c80f18a16cd0606181743502eed031c85430ad6",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.MobileWizardBuilder.js": {
+        "version": "aaa37c9ee40c0b66089bfcfe15b7ec2ce9ea2161ceda8155ac1a24ef69572672",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.MobileWizardPopup.js": {
+        "version": "0d57ae9333e9535d70b6922e153cfffe64694f3dbb387aebfe335d16666eb0ab",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Notebookbar.js": {
+        "version": "abcaf46394c835a829385f29bf9e6fe37a680250452fce63affc99289887828d",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.NotebookbarBuilder.js": {
+        "version": "b15cbe1e06f8ac5b7212bb77e45a533157ae52b04c42019ea1e2f979d69a4db3",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.NotebookbarCalc.js": {
+        "version": "293f3be24cc5d6d5024f3606e168cb2c776aef793a56261f4455f029c57664d3",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.NotebookbarDraw.js": {
+        "version": "d75a653e26073db0055d11d7001f0ca37af7095e5d0d67bf979b96200f711347",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.NotebookbarImpress.js": {
+        "version": "c65b2fab9588f0fa01d53695f562fd7b210361dc33975405540dd45c27dd5b04",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.NotebookbarWriter.js": {
+        "version": "f547901b8046d70133471ca2d3e27cfe90874618ba6f5e70a5f3e1107ea09ea6",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.PartsPreview.js": {
+        "version": "4c9e6b69e76bcacb795a9cd1ed96b92b461337a8dd51afe4f6fe2cd81c5d7487",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Permission.js": {
+        "version": "2c37137bceaa12a6a823d7d1668b46f3d542f4c4b5e231740c1141b4a6a940c6",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.PresentationBar.js": {
+        "version": "388b0e91d925a8995ebb541620afe3df6379acb7ed976d5cd1dbb3d5ba2136f2",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.RowGroup.js": {
+        "version": "94dcad4dd361aab251dc3254d03b44b626627492583c3d2c32033c3cd811eead",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.RowHeader.js": {
+        "version": "2f0f792985ed30f43de1614f48b1df850020dd41659b3c4adb1a417913cf68a7",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Scale.js": {
+        "version": "e96a4dd8bde8ff40b3899521a582fcac32302869a84b7d11f54777d38e1e8ed1",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Scroll.Annotation.js": {
+        "version": "66dc9db5fbe759b24866a7a72c9afdaacfa9efe6bcbd27e4e3afe2cec3f9aa21",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.SearchBar.js": {
+        "version": "2ab727f2513d263c3b73ea7697d9a24e17f31d2e8c403d5fa4f12e95c411b575",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Selection.js": {
+        "version": "c2eb13474d7494a65ba173d6455e1038cba76ca2adc78f3175effaf2846b9e6c",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.SheetsBar.js": {
+        "version": "4c65252d69b8e55ea301a0b7c85f5f97daf30d91af55bc9e7bb47b7ea3af8217",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Sidebar.js": {
+        "version": "67d24ebbcd6b94f8acc4a320d628280d96add4ea56816e160c122b5f54e51294",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.SigningBar.js": {
+        "version": "fed9d6f103c2267e0dc022a5e8c37997e01e1a496171261c6f7caf4bce951b6f",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.StatusBar.js": {
+        "version": "040a9ca22875fd5d4ca10400c715d39947d77c629aac67d8c3ab3a60e088d65a",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Tabs.js": {
+        "version": "40fc5904cb415d4f91633678dc499f9deeb5b01eae1c9a8e5b358ab6f1e45ec3",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.Toolbar.js": {
+        "version": "6765a3ed72043b9530d620bc1b16bba2b0e7461cd05212a97af6e5f5c9db7db5",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.TopToolbar.js": {
+        "version": "dbb7385fba4fc7360b65f4800fe1e741e341db13b5fef21d68e042511a42fa4c",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.UIManager.js": {
+        "version": "df31b4e36cd203783106ed6fc17f50f089e23531ae922483fa38d57eb42f084d",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.UserList.js": {
+        "version": "81fc0f52c77132f6274c6edb086ff1ec7db9ef37106b0332454fe567ec03dbf1",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Control.js": {
+        "version": "1d1ce885181a229acf5f7f0f27e96524235df242d70a83e9e846bb75c9a7aaf1",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/IFrameDialog.js": {
+        "version": "d1e8e56cd562c4ea4edbda69c707a40dfa46b73c34f7131e800b97f96aca52f2",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Parts.js": {
+        "version": "c251cb633b650fcc8821f2ff5a812e6c420a869d1877e7c97fc47c0c848dc085",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Permission.js": {
+        "version": "fee48e9d0ef573a23b588f3dfc248d6a79ee5c8279939f7feedd74818ce8f845",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Ruler.js": {
+        "version": "a2dd4a80404a8319bf73746824b3786daa8b4cb2c87f030f2653aa86120c4f1b",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Scroll.js": {
+        "version": "4deb9125b0b6db53b1c4588dd0fa17cd97c9e87fc30a536102191bb7d7bb6044",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Search.js": {
+        "version": "6410e6383d9e1b1a96c66345a0f26318e8a8a140a497dcce8d0443546d6ddb4e",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Signing.js": {
+        "version": "4eeb0767a16cf63caf1b3ea11aff73e9714c9c012d4ce8f51699165f775afb42",
+        "signature": "0e7fbbbac8be74fe8527a742cba5b9c73c69a3d32f3cec9f46425a265aaad10d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Styles.js": {
+        "version": "db4447e6d426cca28cfc3a6752e1102bf8b1ac765e08999cb40afd9806660add",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/control/Toolbar.js": {
+        "version": "0e12fc0935d8d99542268d18bd2de13e58a5a6cfcf10eb067cc4f06db69ea03a",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/core/Class.js": {
+        "version": "7e6c6ce25fc77c94ec3ab2f2801b41b0c32e2de10b1fba072c51ae5cc929023e",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/core/Events.js": {
+        "version": "8f913c4edd1f57e553764fa8619a4ecece5befa7414c8f520a9f21c9b3471e2b",
+        "signature": "fb4dc25eeb1840c13c5b4de30ace7127b50b0d0aa999c50420ec8fe544aca747",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/core/Handler.js": {
+        "version": "2a06b01a6423d361273ec6e943011ad428e6dd4878b4e9e393fa621af3de0077",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/core/LOUtil.js": {
+        "version": "292d0af7dd11631fcd64317fb3985cf8fc3000d982ea2116df872602f2f46801",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/core/Log.js": {
+        "version": "b27d0e7f603566613280f29422605d6e8463688e129bd21168224e60030bdd37",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/core/Matrix.js": {
+        "version": "673017fcc9479c985c144aea13afdbbc5695847ab694e3ac6f1a73c5ab001724",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/core/Socket.js": {
+        "version": "1c7780bef4fb0f1668df3adbcc2fd43205f68307b6917bf43c737f46e5535094",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/core/Util.js": {
+        "version": "ebbaf210138d27cdb94305f0f6c1930d7ceb47cdd589ba4b1bbe849e19913191",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/dom/DomEvent.MultiClick.js": {
+        "version": "fe06753b4f88f1eb45b3281238d827401676be720919fa843a812153005ec162",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/dom/DomEvent.Pointer.js": {
+        "version": "9b0afd8e61391940313cd435134a4cb029124d0f51016669e029e04f46b9bdca",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/dom/DomEvent.js": {
+        "version": "b61d50189e24ba702644ad9395f91819ba911ef42e21c5b9d2da6999fbb07962",
+        "signature": "28211197c6efdc0d2474de2583b4eeb9fd7fcbbb436965706320edf3bbb71b19",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/dom/DomUtil.js": {
+        "version": "af886e467084002cb6397960488ba103ac326eadd257006eaa5c56002a13a2c5",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/dom/Draggable.js": {
+        "version": "a9fd236cf988cbef9543249b31bcee01872ce0e01c5174a2c005195ec330a0f3",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/dom/PosAnimation.Timer.js": {
+        "version": "985808e80fe18b00d7e71f1cfefb7b91c21c4b08546413f22edc21a810ba2d77",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/dom/PosAnimation.js": {
+        "version": "b0502b0cf547a31fdf8e2ec2ac1314d9586188fa8496a873c74ce55210f34115",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/geo/LatLng.js": {
+        "version": "a41572deae3a8a8ee0208fac9b329e9e573516a872cb0ae7157384e9e18a10db",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/geo/LatLngBounds.js": {
+        "version": "6dedbe0f924330eeed4547a6d096d0a979d2b305b787ecb492307aeb06dc79d5",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/geo/crs/CRS.Simple.js": {
+        "version": "2cb0867b7903e1cef867bbd80c8d13b279146ba329e849e610d49968030922f9",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/geo/crs/CRS.js": {
+        "version": "124d50cf4065b01034b1c19c37af4c2643583fa8dbfce513846cf02a568f2712",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/geo/projection/Projection.LonLat.js": {
+        "version": "47b5902849ff02498fb48985a1cfe6c783a64b876e9f0efc1ab1e24fae65e32b",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/geometry/Bounds.ts": {
+        "version": "3bf1f5fd1c68245742d120449a85716fbc368283fe76cd611fe2c4a079e9a61a",
+        "signature": "8f13a968a835b68809cf8bb85a7d4f45eddfb9a91c4427522898db230df45332",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/geometry/LineUtil.js": {
+        "version": "b1dc5e7f15da7fd740233eb9881c22ad3b50ba7bea153fac7a13b203095b6f4c",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/geometry/Point.ts": {
+        "version": "0865f363b1a50d7e1334a30af7b329da53a16f4ef28b0c8eaf5a1f4113ca8689",
+        "signature": "51c2d7f47721fda50aded09417822d4ae1909e9284eef43d19b7e4db7eb7dbe4",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/geometry/PolyUtil.js": {
+        "version": "7de4e7eaa447619212979aa3fb931932ba79f47ba65769729df88c77cd5081f0",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/geometry/Transformation.ts": {
+        "version": "e8d6b1813f1494c13c9fef51c57440fbe363371cadcf8b39c35e63bb0bcacc72",
+        "signature": "0ec1863cfc17269447cc7e94d077f6e5ff5721f8883cffa27f000f4791b2ac64",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/BackgroundColor.js": {
+        "version": "c719782d58af01e77c8067b63368da6193ef2eda816faa561de08a20a9395b73",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/CalcSplitPanesContext.ts": {
+        "version": "9f2c9a91884e7a8608676ed1b02b83802c56a081d00c7892fdfcda51f7bd3645",
+        "signature": "8e7decc24569ec9a76438a713e7a4271daceb1586a9ecd1eb8f8f7ec573505a4",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/FeatureGroup.js": {
+        "version": "fbde70e6293feccdba644294e40ff97b1e0e6852d0f09ea8453c2e76b135cc37",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/FormFieldButtonLayer.js": {
+        "version": "60ce676f526a019d44871c1372088d2cbbe225c90200952fe72289c8ed6aa2e0",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/ImageOverlay.js": {
+        "version": "dddee3c136da492f1e7d11c92074d8a5639dadf1463468fbacb8ff6fec896883",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/Layer.Popup.js": {
+        "version": "aa322432393fd1d30ff34327becd997f85e3887e39bfad0fb80cd3392e643066",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/Layer.js": {
+        "version": "d7112d5f307a74de304b3f2643af706d4aa907d8fd31978deff9d035d561c71c",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/LayerGroup.js": {
+        "version": "d540cd1a49fef27b76b7e4591d6d469c866a6f1323fad62e57db7e60446fbb16",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/Popup.js": {
+        "version": "2df5a38fd63173ff176540de243470eb33ce94249a0f661740f436691c59afac",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/SplitPanesContext.ts": {
+        "version": "e7ac9853a91671b8f62e6305d6618e47164f49a5a87c5041dc0a7b56dcb9f064",
+        "signature": "f82e600b2ec24207b57dd2d0b87432e048f7e9cc7633e894c55550ea784e2329",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/marker/Cursor.ts": {
+        "version": "72a5f6d46386df9d078c9aedee32b957f0ade287d111eaf7e1daca96106cef72",
+        "signature": "2d4901a2240034378e211232f75f9ecb7093bfaa2e9616162da93ac40fb1419b",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/marker/DivIcon.js": {
+        "version": "37134a3e4e2762201ef3d3f17437bca99b7e6efab7749d2bab861812a8f4c7b1",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/marker/DivOverlay.js": {
+        "version": "921fe29fc8b69f37dea0de012630715cf67ee6bc3232cf95397e671bac98b767",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/marker/Icon.Default.js": {
+        "version": "5bde4f6e6f4a3996f41ae69971559aa9205feba7c0ddcc4b7e18195223a7861b",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/marker/Icon.js": {
+        "version": "bccaaa0ad8512dd9426a2d61e6f50dfcda095e1f1318d8527fa3c49b79b27b12",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/marker/Marker.Drag.js": {
+        "version": "0e4f5da0e4f0a79dd5d5d21eb71cfb65806313c0c1485cf00a54a0972f5b57b4",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/marker/Marker.Popup.js": {
+        "version": "cfb4ebb36c339adf014d8a7dc99f619ee674fb24836baf5ae80ef6329e298034",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/marker/Marker.js": {
+        "version": "a961ffd7a65f00c7979a77e0b376131636cc5fd4ce3560f8a7f02ce0934b8ffd",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/marker/ProgressOverlay.js": {
+        "version": "4991ad64c74bc82311a4712e2afb6ad0caadc8d98f8c5c940d07b85415de38cb",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/marker/TextInput.js": {
+        "version": "3ad3e91c71c5790e4fc419dc20130445512e02243bbaacbe06a690dd1717d2c7",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/AutoFillMarkerSection.ts": {
+        "version": "fac87242498afcc1b4805ea5cfda2c44ccd199ea06418b6cef79ae652a57cd14",
+        "signature": "b92391960db3f2369749a33db03db89693e915b8b5ae08b2d6f3ffc6926fecf0",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/CalcTileLayer.js": {
+        "version": "98675f6df9e55e0b3888df9fe4c1a1682d4a400b92a98ca4fc82df2ed65caf83",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/CanvasSectionContainer.ts": {
+        "version": "90188f321d173336a55f23d515d1726ce34d72e678bbe76d9c5deca43aaed36e",
+        "signature": "cf9fb1fc8c49002824a77b50b764dee742a64129ef334fc35acfc91200dbac26",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/CanvasSectionProps.js": {
+        "version": "c4ec20ebc6ba9b8c45e7cb80396018795df022d3f4e7d30e394c09a5fd87aedb",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/CanvasTileLayer.js": {
+        "version": "785591dfca1d954d7869e247f6408fc6652908810995c9ba88c373922d4afc65",
+        "signature": "0dd6102876d01feb7d08af9a1404a11b647aef5806c03a1bc66b195fe668cffd",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/CommentListSection.ts": {
+        "version": "182d6f9296211eb1aa84a257c4cbb7085f6204b45d35c23aca7b022d1ce87956",
+        "signature": "698942bc616b0b5c5a1daa5b6875a68fe0e0e751b85e454449914c404817749f",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/CommentSection.ts": {
+        "version": "63b44ef5f440b73b8ebc74e6b9a328ba8c620c5f1ab688e137a3b264b57c9c4e",
+        "signature": "1c724b84e633ace797cac18aa573cee4f009cff97dd71aab71661af8ca424150",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/ImpressTileLayer.js": {
+        "version": "4ccd0113dd90ee4f1d5688e119daeeff7085abbcf66854367739f4d97b5dd793",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/ScrollSection.ts": {
+        "version": "68917c50a5a7e49cbeca0d6416eb104a8886d2f1ebde24cea1d06ca61262f249",
+        "signature": "f66540fb6876e9a778ba4c38bab90a74189fb5d38748978df60081f920ce2907",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/SheetGeometry.ts": {
+        "version": "ede0f623d45d89c2017210269f2d7213f391c2b7640f9335a002485314b3743b",
+        "signature": "4c19eff21bd437f14bccf29fbfb1df7118b5d65321bf40b08257266350c49ce5",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/TileLayer.TableOverlay.js": {
+        "version": "ae45aff18d0fff1d4c2694f5c0b92d1dbcd26fc2681c19dbb63387be12f403d4",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/TilesSection.ts": {
+        "version": "afdd12386a1954497db41ddce1e5ae3afdd98f849488bbf6c3c80241b538c9aa",
+        "signature": "7fc28e09129eacf10e0c1ac5da6adb42e70e144e7826ba510ed19b72ba0a35ab",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/tile/WriterTileLayer.js": {
+        "version": "27a87b44e0e84a8ae37f6eca2b3ea8ecefcd479eb044aa4159e33df13abf6cd2",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CDarkOverlay.ts": {
+        "version": "fa4af3e2f3c1accb27744b0674e59bde238428da0234fec7e278304757a5b468",
+        "signature": "75be86f79e3256cc4e1c138247f6ec2b3d33089501c803a9901bd888c8db161f",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CEventsHandler.ts": {
+        "version": "f0878a29b8a46e84cde178086e21a179e443645a2e24654fd80d11cc07ddb69b",
+        "signature": "8d5c34519657c06f5789e3eb0c94b5ee1d843120191db377f078e63b1d8aa6de",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CLineUtil.ts": {
+        "version": "b61bf1fad55474fc6a034eab67e046ee693fa5f208c2623e9244a5d2e7eb5f74",
+        "signature": "8e612b956414e98c37eb67457bcee94f48682597bc2825ab127735e30b0d82b6",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CPath.ts": {
+        "version": "1483ac5ce41c016e43dca1a5cc8a189b074d90c9b0f6d374b60c3761e22de39f",
+        "signature": "1e3f80d067654b5e10bb85839a075d97e37d84a53b80f4b7533fe9e08d8c477c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CPointSet.ts": {
+        "version": "d2392eb59ed43782071c6996afdf98f1bda3f58ece72d7ad048a29718290a102",
+        "signature": "3db783c743b6ae4bc36ab3659cf34867dc9bc7a9cbbe79f0dd79bc518f3476fa",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CPolyUtil.ts": {
+        "version": "774b39bcf52dc2bb6e362c739d43377a0267331909e4670ac3eb81ef4cb27200",
+        "signature": "a08ea66a79a0a4e5379242721c27cef2906b46b0038801ade3a6eef284d0b930",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CPolygon.ts": {
+        "version": "ca96baa779be34b9fa9d3aeef5423a4e0d826272d9fe8b06ca2f4194f6a8fc37",
+        "signature": "a3a78b46250db8bb64a058bbd21a67241479c7e227627b9aa60113f9cee51dd3",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CPolyline.ts": {
+        "version": "afdc8793642368a1791c71639fa3e78327d771a3766c166d5e78f382e9b7d1ed",
+        "signature": "8a7f7a1dd1c6705457236a07bc106774d182031be84b09b30b5b3bf3820419cd",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CRectangle.ts": {
+        "version": "6eb8308cce4b4d9cbeecdac70339ca19400382a9edd006f526ca4e3774bb678d",
+        "signature": "5aa6224696e0c83a8f19fd323c4f6b9e2ec37ffbca93cfe30b9c0e120e7985de",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CSplitterLine.ts": {
+        "version": "7eab7c824ba36905a3a3476c7cfb938bf800001c7576e6f00ba10e134a8aea1f",
+        "signature": "ef239dc03b21c2077c0a6c19dfdc8248d973252ef09a081495289ffc3b8faede",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Canvas.js": {
+        "version": "a7d7d49455a822389285c86aacc7d67d14663e63a8484b303ca051295df79a65",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CanvasOverlay.ts": {
+        "version": "c7bc5132e9184503545b477a9cee089eeb79b25da3e583ae0b7713aae3fe84a5",
+        "signature": "9892e7af3b31f223eca1715fb8774e505e12c8fcb5164c94011eef77c8b7dd93",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Circle.js": {
+        "version": "f62f808a6e7995ebbc2620cb1c7f15370b0bad3c4ab09febc9560ba7e8a1d0b9",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/CircleMarker.js": {
+        "version": "547fb48eb1b7b1c8533160c8fbfd79042671e0735651ef41d7bb4197fcbd211d",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Path.Drag.Transform.js": {
+        "version": "e82645ad0c23e77369b33b7cd08a11ca55ed41a878bbb7eaf40ca732156dee46",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Path.Drag.js": {
+        "version": "6a6901437c8757d7bbfd0f531c58a3f1879084405a04cc7fd0a2adf8d2cf6bb5",
+        "signature": "12ccabde7ba9645bed51234d297407e5b86c22061f77a9b4457fe50088247c6e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Path.Popup.js": {
+        "version": "69fa0778a66edd84b71cf4e360bf91a0ddd783ed56116817ccc34c0fe5d70150",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Path.Transform.Canvas.js": {
+        "version": "d1ceaad5bb4de694e50b4f6ab2a96fc1c5d73c30caec7c3291ce2dc4b618ca11",
+        "signature": "1daf7ac537cc18eb299e68106a935b05b27d7aac1b6df2d58da475dacfcf18ff",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Path.Transform.SVG.VML.js": {
+        "version": "a62b81f3d003aef87fb11f69f9e8f46cf57b48755ca0a026bdc0ec990846e5b2",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Path.Transform.SVG.js": {
+        "version": "e97201f025711fd858bddd77135016c12773c2b2bf46406713982776fbd15d44",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Path.Transform.Util.js": {
+        "version": "f92aa30aaaca3278db38de4380b8efd0d3f8e90b27854b9b7b97d389daaf002e",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Path.Transform.js": {
+        "version": "8cf25aeba9e4e1a848555ff20990e44af6dc97e9096cf57674c585afa90a1ca9",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Path.js": {
+        "version": "0836a4c44e037ac15ae39a48f441eb39e88b3454260238f946255c66887374ac",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Polygon.js": {
+        "version": "7f8021da517fa3869be471dedd06763a22dedfe45f6c4b78002e5f478c855173",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Polyline.js": {
+        "version": "cd1482ad25599f182c5ef0dcaa7bde0b386e4ee651cdc26074259a1ba49b7931",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Rectangle.js": {
+        "version": "647e09ebc36b232402ac0e2af9ca180ad3a74c1cb647265564dd84e298f86692",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/Renderer.js": {
+        "version": "c3ec7659076b0913b5d7e1c9df3406c5b85903ec745497522392632624b394ec",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/SVG.VML.js": {
+        "version": "423587bdfd8df69bb5a3e432975ff21accf673c4126f29c2db757f5b530609b0",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/SVG.js": {
+        "version": "05612cd8cdf6c219c3cd47fd65ce55fd314ccf632d0b9e8f05c8447959814c18",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/SVGGroup.js": {
+        "version": "d2d1356448f0d4d036ca0d77299ac63d2e78516b5a8476ed7e73242629b0fa8f",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/SplitPanesRenderer.js": {
+        "version": "c6eb9b83014e81dd53c5b28caa09e17ff48d0d3a552f3b194361d87a90a03005",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/layer/vector/SplitPanesSVG.js": {
+        "version": "a817ee59a6d6fdb67b736415ce407d05d9316c84b497785c9874183f0237d8b2",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/Clipboard.js": {
+        "version": "53b6bf00b905883b565811d6f64aa9e1df0affaa19ecf198e919830489f04c48",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/Map.js": {
+        "version": "a2f6e01daa0a8f0b866d8230e9ab56077dd1ff3de1d8ebc61aa64e89c600ac30",
+        "signature": "894fbaf007ce31655c4ad18e2804d2f065a3ac500550bda1ce23950f3aefa202",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/anim/Map.PanAnimation.js": {
+        "version": "24fd610d03d7bee88b00a15412943b0d396ffc3bba45ee17721ceb9db5025b62",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.BoxZoom.js": {
+        "version": "9b2640c92eb25ff9de73cae86cd20b0e3eb45d58cce7f37fecff052d1fb81dd8",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.DoubleClickZoom.js": {
+        "version": "e81786bb7f70012378ea56ece90c516451df0868439eaae206b6067a23289884",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.Drag.js": {
+        "version": "54a7f17485f7090b79403bff2a07bfb4491fe9facf066486055398b4ae3f1d63",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.Feedback.js": {
+        "version": "732bb299f87fb9cc7c90239fa405e8d10c5acf7838d8d6bf1889ec9a5aff40d7",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.FileInserter.js": {
+        "version": "71a3a4b75cfef2c6c568df3b88f81eed9e8b959a8ca27488a752fdc40648a116",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.Infobar.js": {
+        "version": "09f94b10189593ed1328cc87f7a5f08dc6c6fc2d01c085273ebb3344ba5c7cbc",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.Keyboard.js": {
+        "version": "71df415340ebf36a04678335dd4fc1cec84ca87e5ff37631cef3ebfbaba45aa8",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.Mouse.js": {
+        "version": "b09c740072f3818265f6f2d507e37fd1c93716f6fdf340d3f7fee7b533a9ffec",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.Print.js": {
+        "version": "34d0c1472b677860552cb3818a72b88bcbd9279c44cad3f20a0a83d4706a53ce",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.Scroll.js": {
+        "version": "1770e0afdd932ad25441da900364c87d6ce98033d3892c3b8c271cdf63f914af",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.SlideShow.js": {
+        "version": "83c211e5f0c5d17a0587b6ced9cf374168ea75a47b2da1442a3949ffdff88d8a",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.StateChanges.js": {
+        "version": "5d8496e66142594e91f349d6a7c4091b752f5741aa9d645ff0567fade145e59f",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.TouchGesture.js": {
+        "version": "34ff963f0a4cb404012435b5074b4e7a4d86342dcca9bf986e396bafe762bb86",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.WOPI.js": {
+        "version": "009f6cc88bdb2249d002cc609e91a0c2e66cf32bde1997dcc80de2fc915e606e",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/src/map/handler/Map.Welcome.js": {
+        "version": "2bf237bb408df5a446d65c95d7aa29be9fe0832ee29b22ed29566408008c848b",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/@types/color-name/index.d.ts": {
+        "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
+        "signature": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/json-schema/index.d.ts": {
+        "version": "f3e604694b624fa3f83f6684185452992088f5efb2cf136b62474aa106d6f1b6",
+        "signature": "f3e604694b624fa3f83f6684185452992088f5efb2cf136b62474aa106d6f1b6",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/minimist/index.d.ts": {
+        "version": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
+        "signature": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/mocha/index.d.ts": {
+        "version": "a3a5fc3a8b77a1b96277eff237a15d065d525a6c1c66b303dc98be708e30e7f8",
+        "signature": "a3a5fc3a8b77a1b96277eff237a15d065d525a6c1c66b303dc98be708e30e7f8",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/@types/node/globals.d.ts": {
+        "version": "215d8d9a2c480fd460127edc048d68d9931d3b27f95132253a6e71975f060bb1",
+        "signature": "215d8d9a2c480fd460127edc048d68d9931d3b27f95132253a6e71975f060bb1",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/@types/node/async_hooks.d.ts": {
+        "version": "c438b413e94ff76dfa20ae005f33a1c84f2480d1d66e0fd687501020d0de9b50",
+        "signature": "c438b413e94ff76dfa20ae005f33a1c84f2480d1d66e0fd687501020d0de9b50",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/buffer.d.ts": {
+        "version": "bc6a78961535181265845bf9b9e8a147ffd0ca275097ceb670a9b92afa825152",
+        "signature": "bc6a78961535181265845bf9b9e8a147ffd0ca275097ceb670a9b92afa825152",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/events.d.ts": {
+        "version": "153d835dc32985120790e10102834b0a5bd979bb5e42bfbb33c0ff6260cf03ce",
+        "signature": "153d835dc32985120790e10102834b0a5bd979bb5e42bfbb33c0ff6260cf03ce",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/@types/node/stream.d.ts": {
+        "version": "e7b5a3f40f19d9eea71890c70dfb37ac5dd82cbffe5f95bc8f23c536455732d0",
+        "signature": "e7b5a3f40f19d9eea71890c70dfb37ac5dd82cbffe5f95bc8f23c536455732d0",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/querystring.d.ts": {
+        "version": "884560fda6c3868f925f022adc3a1289fe6507bbb45adb10fa1bbcc73a941bb0",
+        "signature": "884560fda6c3868f925f022adc3a1289fe6507bbb45adb10fa1bbcc73a941bb0",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/url.d.ts": {
+        "version": "4001971b90f18161f7bd46d68150d32a5da47e3f177956a267a2b29a2771896a",
+        "signature": "4001971b90f18161f7bd46d68150d32a5da47e3f177956a267a2b29a2771896a",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/fs/promises.d.ts": {
+        "version": "1c0692002778565d9b3ee0edea6ca133caadd714597228525fec8e2fd9846755",
+        "signature": "1c0692002778565d9b3ee0edea6ca133caadd714597228525fec8e2fd9846755",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/fs.d.ts": {
+        "version": "2e204fb437b8e98937c933cb7e739b24b871872161997d7dfe98841b861a14f0",
+        "signature": "2e204fb437b8e98937c933cb7e739b24b871872161997d7dfe98841b861a14f0",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/dns.d.ts": {
+        "version": "51f82a7e0819a91c170eb1ad39ad1917a0cbb8f9354fdaed66a5189745f63f71",
+        "signature": "51f82a7e0819a91c170eb1ad39ad1917a0cbb8f9354fdaed66a5189745f63f71",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/net.d.ts": {
+        "version": "3c5edfced8c5cd35e3680789deabbe4f478b67a42b26d82d91eea9d3f07f4771",
+        "signature": "3c5edfced8c5cd35e3680789deabbe4f478b67a42b26d82d91eea9d3f07f4771",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/child_process.d.ts": {
+        "version": "a4b5411d87995b9fb847f491f4388b38f829d8ab39be3e2fd65a3e40709f29a8",
+        "signature": "a4b5411d87995b9fb847f491f4388b38f829d8ab39be3e2fd65a3e40709f29a8",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/cluster.d.ts": {
+        "version": "123ec69e4b3a686eb49afd94ebe3292a5c84a867ecbcb6bb84bdd720a12af803",
+        "signature": "123ec69e4b3a686eb49afd94ebe3292a5c84a867ecbcb6bb84bdd720a12af803",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/util.d.ts": {
+        "version": "f28704c27e1bd58068052f5407541a3306f0ffc77f068e2891f46527a4569e25",
+        "signature": "f28704c27e1bd58068052f5407541a3306f0ffc77f068e2891f46527a4569e25",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/console.d.ts": {
+        "version": "eb5197aade83cb0e360ac407289c53a8009e8fdae7939892a0240d30444496b6",
+        "signature": "eb5197aade83cb0e360ac407289c53a8009e8fdae7939892a0240d30444496b6",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/@types/node/os.d.ts": {
+        "version": "ed4ae81196cccc10f297d228bca8d02e31058e6d723a3c5bc4be5fb3c61c6a34",
+        "signature": "ed4ae81196cccc10f297d228bca8d02e31058e6d723a3c5bc4be5fb3c61c6a34",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/crypto.d.ts": {
+        "version": "3d9c3ccc05ebc6e288bef007bcc47a2fc0dce748ea634093ef0732b9be743805",
+        "signature": "3d9c3ccc05ebc6e288bef007bcc47a2fc0dce748ea634093ef0732b9be743805",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/constants.d.ts": {
+        "version": "90c85ddbb8de82cd19198bda062065fc51b7407c0f206f2e399e65a52e979720",
+        "signature": "90c85ddbb8de82cd19198bda062065fc51b7407c0f206f2e399e65a52e979720",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/dgram.d.ts": {
+        "version": "7e050b767ed10c7ffbc01f314defbf420bf0b5d54ce666e1c87507c035dfc191",
+        "signature": "7e050b767ed10c7ffbc01f314defbf420bf0b5d54ce666e1c87507c035dfc191",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/domain.d.ts": {
+        "version": "2866a528b2708aa272ec3eaafd3c980abb23aec1ef831cfc5eb2186b98c37ce5",
+        "signature": "2866a528b2708aa272ec3eaafd3c980abb23aec1ef831cfc5eb2186b98c37ce5",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/@types/node/http.d.ts": {
+        "version": "f2f8a385694fd71a421616cbaca477a539f30f4098f11261b1d188d72dc3478a",
+        "signature": "f2f8a385694fd71a421616cbaca477a539f30f4098f11261b1d188d72dc3478a",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/tls.d.ts": {
+        "version": "01c351e71743ff26450789ec4ca6a1421c647c9c459aa8007e9e1914073b5db2",
+        "signature": "01c351e71743ff26450789ec4ca6a1421c647c9c459aa8007e9e1914073b5db2",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/http2.d.ts": {
+        "version": "f15f1f1104aaf47d25124de81949375416e3f8ee704e3d221bea339e35421edb",
+        "signature": "f15f1f1104aaf47d25124de81949375416e3f8ee704e3d221bea339e35421edb",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/https.d.ts": {
+        "version": "c969bf4c7cdfe4d5dd28aa09432f99d09ad1d8d8b839959646579521d0467d1a",
+        "signature": "c969bf4c7cdfe4d5dd28aa09432f99d09ad1d8d8b839959646579521d0467d1a",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/inspector.d.ts": {
+        "version": "6c3857edaeeaaf43812f527830ebeece9266b6e8eb5271ab6d2f0008306c9947",
+        "signature": "6c3857edaeeaaf43812f527830ebeece9266b6e8eb5271ab6d2f0008306c9947",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/module.d.ts": {
+        "version": "bc6a77e750f4d34584e46b1405b771fb69a224197dd6bafe5b0392a29a70b665",
+        "signature": "bc6a77e750f4d34584e46b1405b771fb69a224197dd6bafe5b0392a29a70b665",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/path.d.ts": {
+        "version": "84044697c8b3e08ef24e4b32cfe6440143d07e469a5e34bda0635276d32d9f35",
+        "signature": "84044697c8b3e08ef24e4b32cfe6440143d07e469a5e34bda0635276d32d9f35",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "4982d94cb6427263c8839d8d6324a8bbe129e931deb61a7380f8fad17ba2cfc0",
+        "signature": "4982d94cb6427263c8839d8d6324a8bbe129e931deb61a7380f8fad17ba2cfc0",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/tty.d.ts": {
+        "version": "3c2ac350c3baa61fd2b1925844109e098f4376d0768a4643abc82754fd752748",
+        "signature": "3c2ac350c3baa61fd2b1925844109e098f4376d0768a4643abc82754fd752748",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/process.d.ts": {
+        "version": "ae4bc1dd4d9de7bbea6ce419db45af82a81358e6014c9e1235b5d252e06f8ab8",
+        "signature": "ae4bc1dd4d9de7bbea6ce419db45af82a81358e6014c9e1235b5d252e06f8ab8",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/@types/node/punycode.d.ts": {
+        "version": "3f6a1fd73c9dc3bd7f4b79bc075297ca6527904df69b0f2c2c94e4c4c7d9a32c",
+        "signature": "3f6a1fd73c9dc3bd7f4b79bc075297ca6527904df69b0f2c2c94e4c4c7d9a32c",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/readline.d.ts": {
+        "version": "6b2bb67b0942bcfce93e1d6fad5f70afd54940a2b13df7f311201fba54b2cbe9",
+        "signature": "6b2bb67b0942bcfce93e1d6fad5f70afd54940a2b13df7f311201fba54b2cbe9",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/vm.d.ts": {
+        "version": "baf0b82ffc5d2616f44a6fb1f81e8d798545bebf0c30f5d8b003a1dba1acfb3f",
+        "signature": "baf0b82ffc5d2616f44a6fb1f81e8d798545bebf0c30f5d8b003a1dba1acfb3f",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/repl.d.ts": {
+        "version": "acbed967a379b3e9f73237ba9473f8b337eeea14b7dc64d445430b5d695751da",
+        "signature": "acbed967a379b3e9f73237ba9473f8b337eeea14b7dc64d445430b5d695751da",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/string_decoder.d.ts": {
+        "version": "d67e08745494b000da9410c1ae2fdc9965fc6d593fe0f381a47491f75417d457",
+        "signature": "d67e08745494b000da9410c1ae2fdc9965fc6d593fe0f381a47491f75417d457",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/trace_events.d.ts": {
+        "version": "a77fdb357c78b70142b2fdbbfb72958d69e8f765fd2a3c69946c1018e89d4638",
+        "signature": "a77fdb357c78b70142b2fdbbfb72958d69e8f765fd2a3c69946c1018e89d4638",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/v8.d.ts": {
+        "version": "289be113bad7ee27ee7fa5b1e373c964c9789a5e9ed7db5ddcb631371120b953",
+        "signature": "289be113bad7ee27ee7fa5b1e373c964c9789a5e9ed7db5ddcb631371120b953",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/worker_threads.d.ts": {
+        "version": "c6a5b34f1e725019445754f1e733585f113e0dced75f137bd3c4af5853d3f6ab",
+        "signature": "c6a5b34f1e725019445754f1e733585f113e0dced75f137bd3c4af5853d3f6ab",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/zlib.d.ts": {
+        "version": "15fbe50526244954eb2f933546bca6cdcf0db16c9428d099b3b386c1db5799ab",
+        "signature": "15fbe50526244954eb2f933546bca6cdcf0db16c9428d099b3b386c1db5799ab",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/ts3.4/base.d.ts": {
+        "version": "d44028ae0127eb3e9fcfa5f55a8b81d64775ce15aca1020fe25c511bbb055834",
+        "signature": "d44028ae0127eb3e9fcfa5f55a8b81d64775ce15aca1020fe25c511bbb055834",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/globals.global.d.ts": {
+        "version": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "signature": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../browser/node_modules/@types/node/wasi.d.ts": {
+        "version": "4e0a4d84b15692ea8669fe4f3d05a4f204567906b1347da7a58b75f45bae48d3",
+        "signature": "4e0a4d84b15692ea8669fe4f3d05a4f204567906b1347da7a58b75f45bae48d3",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/ts3.6/base.d.ts": {
+        "version": "ad1ae5ae98eceb9af99061e83e867b9897d267aebc8f3b938c9424deabadf4bb",
+        "signature": "ad1ae5ae98eceb9af99061e83e867b9897d267aebc8f3b938c9424deabadf4bb",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/assert.d.ts": {
+        "version": "b3593bd345ebea5e4d0a894c03251a3774b34df3d6db57075c18e089a599ba76",
+        "signature": "b3593bd345ebea5e4d0a894c03251a3774b34df3d6db57075c18e089a599ba76",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/base.d.ts": {
+        "version": "e61a21e9418f279bc480394a94d1581b2dee73747adcbdef999b6737e34d721b",
+        "signature": "e61a21e9418f279bc480394a94d1581b2dee73747adcbdef999b6737e34d721b",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/node/index.d.ts": {
+        "version": "744e6430bafc6f39f66c4fc1e6a0d8c9551260ffd1782aa7e3f5166ac6aa1f86",
+        "signature": "744e6430bafc6f39f66c4fc1e6a0d8c9551260ffd1782aa7e3f5166ac6aa1f86",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/normalize-package-data/index.d.ts": {
+        "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/parse-json/index.d.ts": {
+        "version": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
+        "signature": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../browser/node_modules/@types/unist/index.d.ts": {
+        "version": "1320ee42b30487cceb6da9f230354fc34826111f76bf12f0ad76c717c12625b0",
+        "signature": "1320ee42b30487cceb6da9f230354fc34826111f76bf12f0ad76c717c12625b0",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "target": 1,
+      "module": 0,
+      "lib": [
+        "lib.dom.d.ts",
+        "lib.es2016.d.ts"
+      ],
+      "sourceMap": true,
+      "incremental": true,
+      "moduleResolution": 1,
+      "noImplicitAny": true,
+      "removeComments": false,
+      "preserveConstEnums": false,
+      "downlevelIteration": true,
+      "watch": false,
+      "typeRoots": [
+        "../../../../../../browser/node_modules/@types"
+      ],
+      "outDir": "./src",
+      "rootDir": "../../../../../../browser/src",
+      "checkJs": false,
+      "project": "../../../../../../browser/tsconfig.json",
+      "allowJs": true,
+      "inlineSources": true,
+      "configFilePath": "../../../../../../browser/tsconfig.json"
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../../../../../browser/node_modules/@types/color-name/index.d.ts",
+      "../../../../../../browser/node_modules/@types/json-schema/index.d.ts",
+      "../../../../../../browser/node_modules/@types/minimist/index.d.ts",
+      "../../../../../../browser/node_modules/@types/mocha/index.d.ts",
+      "../../../../../../browser/node_modules/@types/node/assert.d.ts",
+      "../../../../../../browser/node_modules/@types/node/async_hooks.d.ts",
+      "../../../../../../browser/node_modules/@types/node/base.d.ts",
+      "../../../../../../browser/node_modules/@types/node/buffer.d.ts",
+      "../../../../../../browser/node_modules/@types/node/child_process.d.ts",
+      "../../../../../../browser/node_modules/@types/node/cluster.d.ts",
+      "../../../../../../browser/node_modules/@types/node/console.d.ts",
+      "../../../../../../browser/node_modules/@types/node/constants.d.ts",
+      "../../../../../../browser/node_modules/@types/node/crypto.d.ts",
+      "../../../../../../browser/node_modules/@types/node/dgram.d.ts",
+      "../../../../../../browser/node_modules/@types/node/dns.d.ts",
+      "../../../../../../browser/node_modules/@types/node/domain.d.ts",
+      "../../../../../../browser/node_modules/@types/node/events.d.ts",
+      "../../../../../../browser/node_modules/@types/node/fs.d.ts",
+      "../../../../../../browser/node_modules/@types/node/fs/promises.d.ts",
+      "../../../../../../browser/node_modules/@types/node/globals.d.ts",
+      "../../../../../../browser/node_modules/@types/node/globals.global.d.ts",
+      "../../../../../../browser/node_modules/@types/node/http.d.ts",
+      "../../../../../../browser/node_modules/@types/node/http2.d.ts",
+      "../../../../../../browser/node_modules/@types/node/https.d.ts",
+      "../../../../../../browser/node_modules/@types/node/index.d.ts",
+      "../../../../../../browser/node_modules/@types/node/inspector.d.ts",
+      "../../../../../../browser/node_modules/@types/node/module.d.ts",
+      "../../../../../../browser/node_modules/@types/node/net.d.ts",
+      "../../../../../../browser/node_modules/@types/node/os.d.ts",
+      "../../../../../../browser/node_modules/@types/node/path.d.ts",
+      "../../../../../../browser/node_modules/@types/node/perf_hooks.d.ts",
+      "../../../../../../browser/node_modules/@types/node/process.d.ts",
+      "../../../../../../browser/node_modules/@types/node/punycode.d.ts",
+      "../../../../../../browser/node_modules/@types/node/querystring.d.ts",
+      "../../../../../../browser/node_modules/@types/node/readline.d.ts",
+      "../../../../../../browser/node_modules/@types/node/repl.d.ts",
+      "../../../../../../browser/node_modules/@types/node/stream.d.ts",
+      "../../../../../../browser/node_modules/@types/node/string_decoder.d.ts",
+      "../../../../../../browser/node_modules/@types/node/timers.d.ts",
+      "../../../../../../browser/node_modules/@types/node/tls.d.ts",
+      "../../../../../../browser/node_modules/@types/node/trace_events.d.ts",
+      "../../../../../../browser/node_modules/@types/node/ts3.4/base.d.ts",
+      "../../../../../../browser/node_modules/@types/node/ts3.6/base.d.ts",
+      "../../../../../../browser/node_modules/@types/node/tty.d.ts",
+      "../../../../../../browser/node_modules/@types/node/url.d.ts",
+      "../../../../../../browser/node_modules/@types/node/util.d.ts",
+      "../../../../../../browser/node_modules/@types/node/v8.d.ts",
+      "../../../../../../browser/node_modules/@types/node/vm.d.ts",
+      "../../../../../../browser/node_modules/@types/node/wasi.d.ts",
+      "../../../../../../browser/node_modules/@types/node/worker_threads.d.ts",
+      "../../../../../../browser/node_modules/@types/node/zlib.d.ts",
+      "../../../../../../browser/node_modules/@types/normalize-package-data/index.d.ts",
+      "../../../../../../browser/node_modules/@types/parse-json/index.d.ts",
+      "../../../../../../browser/node_modules/@types/unist/index.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2016.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../../../browser/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../../../../../../browser/src/Leaflet.js",
+      "../../../../../../browser/src/UNO/Key.js",
+      "../../../../../../browser/src/control/ColorPicker.js",
+      "../../../../../../browser/src/control/Control.AlertDialog.js",
+      "../../../../../../browser/src/control/Control.Attribution.js",
+      "../../../../../../browser/src/control/Control.ColumnGroup.js",
+      "../../../../../../browser/src/control/Control.ColumnHeader.js",
+      "../../../../../../browser/src/control/Control.Command.js",
+      "../../../../../../browser/src/control/Control.ContextMenu.js",
+      "../../../../../../browser/src/control/Control.CornerGroup.js",
+      "../../../../../../browser/src/control/Control.CornerHeader.js",
+      "../../../../../../browser/src/control/Control.DocumentNameInput.js",
+      "../../../../../../browser/src/control/Control.DocumentRepair.js",
+      "../../../../../../browser/src/control/Control.DownloadProgress.js",
+      "../../../../../../browser/src/control/Control.FormulaBar.js",
+      "../../../../../../browser/src/control/Control.FormulaBarJSDialog.js",
+      "../../../../../../browser/src/control/Control.GroupBase.js",
+      "../../../../../../browser/src/control/Control.Header.js",
+      "../../../../../../browser/src/control/Control.Infobar.js",
+      "../../../../../../browser/src/control/Control.JSDialog.js",
+      "../../../../../../browser/src/control/Control.JSDialogBuilder.js",
+      "../../../../../../browser/src/control/Control.LanguageDialog.js",
+      "../../../../../../browser/src/control/Control.Layers.js",
+      "../../../../../../browser/src/control/Control.LokDialog.js",
+      "../../../../../../browser/src/control/Control.Menubar.js",
+      "../../../../../../browser/src/control/Control.MobileBottomBar.js",
+      "../../../../../../browser/src/control/Control.MobileSlide.js",
+      "../../../../../../browser/src/control/Control.MobileTopBar.js",
+      "../../../../../../browser/src/control/Control.MobileWizard.js",
+      "../../../../../../browser/src/control/Control.MobileWizardBuilder.js",
+      "../../../../../../browser/src/control/Control.MobileWizardPopup.js",
+      "../../../../../../browser/src/control/Control.Notebookbar.js",
+      "../../../../../../browser/src/control/Control.NotebookbarBuilder.js",
+      "../../../../../../browser/src/control/Control.NotebookbarCalc.js",
+      "../../../../../../browser/src/control/Control.NotebookbarDraw.js",
+      "../../../../../../browser/src/control/Control.NotebookbarImpress.js",
+      "../../../../../../browser/src/control/Control.NotebookbarWriter.js",
+      "../../../../../../browser/src/control/Control.PartsPreview.js",
+      "../../../../../../browser/src/control/Control.Permission.js",
+      "../../../../../../browser/src/control/Control.PresentationBar.js",
+      "../../../../../../browser/src/control/Control.RowGroup.js",
+      "../../../../../../browser/src/control/Control.RowHeader.js",
+      "../../../../../../browser/src/control/Control.Scale.js",
+      "../../../../../../browser/src/control/Control.Scroll.Annotation.js",
+      "../../../../../../browser/src/control/Control.SearchBar.js",
+      "../../../../../../browser/src/control/Control.Selection.js",
+      "../../../../../../browser/src/control/Control.SheetsBar.js",
+      "../../../../../../browser/src/control/Control.Sidebar.js",
+      "../../../../../../browser/src/control/Control.SigningBar.js",
+      "../../../../../../browser/src/control/Control.StatusBar.js",
+      "../../../../../../browser/src/control/Control.Tabs.js",
+      "../../../../../../browser/src/control/Control.Toolbar.js",
+      "../../../../../../browser/src/control/Control.TopToolbar.js",
+      "../../../../../../browser/src/control/Control.UIManager.js",
+      "../../../../../../browser/src/control/Control.UserList.js",
+      "../../../../../../browser/src/control/Control.js",
+      "../../../../../../browser/src/control/IFrameDialog.js",
+      "../../../../../../browser/src/control/Parts.js",
+      "../../../../../../browser/src/control/Permission.js",
+      "../../../../../../browser/src/control/Ruler.js",
+      "../../../../../../browser/src/control/Scroll.js",
+      "../../../../../../browser/src/control/Search.js",
+      "../../../../../../browser/src/control/Signing.js",
+      "../../../../../../browser/src/control/Styles.js",
+      "../../../../../../browser/src/control/Toolbar.js",
+      "../../../../../../browser/src/copyright.js",
+      "../../../../../../browser/src/core/Class.js",
+      "../../../../../../browser/src/core/Events.js",
+      "../../../../../../browser/src/core/Handler.js",
+      "../../../../../../browser/src/core/LOUtil.js",
+      "../../../../../../browser/src/core/Log.js",
+      "../../../../../../browser/src/core/Matrix.js",
+      "../../../../../../browser/src/core/Socket.js",
+      "../../../../../../browser/src/core/Util.js",
+      "../../../../../../browser/src/docstate.js",
+      "../../../../../../browser/src/dom/DomEvent.MultiClick.js",
+      "../../../../../../browser/src/dom/DomEvent.Pointer.js",
+      "../../../../../../browser/src/dom/DomEvent.js",
+      "../../../../../../browser/src/dom/DomUtil.js",
+      "../../../../../../browser/src/dom/Draggable.js",
+      "../../../../../../browser/src/dom/PosAnimation.Timer.js",
+      "../../../../../../browser/src/dom/PosAnimation.js",
+      "../../../../../../browser/src/errormessages.js",
+      "../../../../../../browser/src/geo/LatLng.js",
+      "../../../../../../browser/src/geo/LatLngBounds.js",
+      "../../../../../../browser/src/geo/crs/CRS.Simple.js",
+      "../../../../../../browser/src/geo/crs/CRS.js",
+      "../../../../../../browser/src/geo/projection/Projection.LonLat.js",
+      "../../../../../../browser/src/geometry/Bounds.ts",
+      "../../../../../../browser/src/geometry/LineUtil.js",
+      "../../../../../../browser/src/geometry/Point.ts",
+      "../../../../../../browser/src/geometry/PolyUtil.js",
+      "../../../../../../browser/src/geometry/Transformation.ts",
+      "../../../../../../browser/src/layer/BackgroundColor.js",
+      "../../../../../../browser/src/layer/CalcSplitPanesContext.ts",
+      "../../../../../../browser/src/layer/FeatureGroup.js",
+      "../../../../../../browser/src/layer/FormFieldButtonLayer.js",
+      "../../../../../../browser/src/layer/ImageOverlay.js",
+      "../../../../../../browser/src/layer/Layer.Popup.js",
+      "../../../../../../browser/src/layer/Layer.js",
+      "../../../../../../browser/src/layer/LayerGroup.js",
+      "../../../../../../browser/src/layer/Popup.js",
+      "../../../../../../browser/src/layer/SplitPanesContext.ts",
+      "../../../../../../browser/src/layer/marker/Cursor.ts",
+      "../../../../../../browser/src/layer/marker/DivIcon.js",
+      "../../../../../../browser/src/layer/marker/DivOverlay.js",
+      "../../../../../../browser/src/layer/marker/Icon.Default.js",
+      "../../../../../../browser/src/layer/marker/Icon.js",
+      "../../../../../../browser/src/layer/marker/Marker.Drag.js",
+      "../../../../../../browser/src/layer/marker/Marker.Popup.js",
+      "../../../../../../browser/src/layer/marker/Marker.js",
+      "../../../../../../browser/src/layer/marker/ProgressOverlay.js",
+      "../../../../../../browser/src/layer/marker/TextInput.js",
+      "../../../../../../browser/src/layer/tile/AutoFillMarkerSection.ts",
+      "../../../../../../browser/src/layer/tile/CalcTileLayer.js",
+      "../../../../../../browser/src/layer/tile/CanvasSectionContainer.ts",
+      "../../../../../../browser/src/layer/tile/CanvasSectionProps.js",
+      "../../../../../../browser/src/layer/tile/CanvasTileLayer.js",
+      "../../../../../../browser/src/layer/tile/CommentListSection.ts",
+      "../../../../../../browser/src/layer/tile/CommentSection.ts",
+      "../../../../../../browser/src/layer/tile/ImpressTileLayer.js",
+      "../../../../../../browser/src/layer/tile/ScrollSection.ts",
+      "../../../../../../browser/src/layer/tile/SheetGeometry.ts",
+      "../../../../../../browser/src/layer/tile/TileLayer.TableOverlay.js",
+      "../../../../../../browser/src/layer/tile/TilesSection.ts",
+      "../../../../../../browser/src/layer/tile/WriterTileLayer.js",
+      "../../../../../../browser/src/layer/vector/CDarkOverlay.ts",
+      "../../../../../../browser/src/layer/vector/CEventsHandler.ts",
+      "../../../../../../browser/src/layer/vector/CLineUtil.ts",
+      "../../../../../../browser/src/layer/vector/CPath.ts",
+      "../../../../../../browser/src/layer/vector/CPointSet.ts",
+      "../../../../../../browser/src/layer/vector/CPolyUtil.ts",
+      "../../../../../../browser/src/layer/vector/CPolygon.ts",
+      "../../../../../../browser/src/layer/vector/CPolyline.ts",
+      "../../../../../../browser/src/layer/vector/CRectangle.ts",
+      "../../../../../../browser/src/layer/vector/CSplitterLine.ts",
+      "../../../../../../browser/src/layer/vector/Canvas.js",
+      "../../../../../../browser/src/layer/vector/CanvasOverlay.ts",
+      "../../../../../../browser/src/layer/vector/Circle.js",
+      "../../../../../../browser/src/layer/vector/CircleMarker.js",
+      "../../../../../../browser/src/layer/vector/Path.Drag.Transform.js",
+      "../../../../../../browser/src/layer/vector/Path.Drag.js",
+      "../../../../../../browser/src/layer/vector/Path.Popup.js",
+      "../../../../../../browser/src/layer/vector/Path.Transform.Canvas.js",
+      "../../../../../../browser/src/layer/vector/Path.Transform.SVG.VML.js",
+      "../../../../../../browser/src/layer/vector/Path.Transform.SVG.js",
+      "../../../../../../browser/src/layer/vector/Path.Transform.Util.js",
+      "../../../../../../browser/src/layer/vector/Path.Transform.js",
+      "../../../../../../browser/src/layer/vector/Path.js",
+      "../../../../../../browser/src/layer/vector/Polygon.js",
+      "../../../../../../browser/src/layer/vector/Polyline.js",
+      "../../../../../../browser/src/layer/vector/Rectangle.js",
+      "../../../../../../browser/src/layer/vector/Renderer.js",
+      "../../../../../../browser/src/layer/vector/SVG.VML.js",
+      "../../../../../../browser/src/layer/vector/SVG.js",
+      "../../../../../../browser/src/layer/vector/SVGGroup.js",
+      "../../../../../../browser/src/layer/vector/SplitPanesRenderer.js",
+      "../../../../../../browser/src/layer/vector/SplitPanesSVG.js",
+      "../../../../../../browser/src/main.js",
+      "../../../../../../browser/src/map/Clipboard.js",
+      "../../../../../../browser/src/map/Map.js",
+      "../../../../../../browser/src/map/anim/Map.PanAnimation.js",
+      "../../../../../../browser/src/map/handler/Map.BoxZoom.js",
+      "../../../../../../browser/src/map/handler/Map.DoubleClickZoom.js",
+      "../../../../../../browser/src/map/handler/Map.Drag.js",
+      "../../../../../../browser/src/map/handler/Map.Feedback.js",
+      "../../../../../../browser/src/map/handler/Map.FileInserter.js",
+      "../../../../../../browser/src/map/handler/Map.Infobar.js",
+      "../../../../../../browser/src/map/handler/Map.Keyboard.js",
+      "../../../../../../browser/src/map/handler/Map.Mouse.js",
+      "../../../../../../browser/src/map/handler/Map.Print.js",
+      "../../../../../../browser/src/map/handler/Map.Scroll.js",
+      "../../../../../../browser/src/map/handler/Map.SlideShow.js",
+      "../../../../../../browser/src/map/handler/Map.StateChanges.js",
+      "../../../../../../browser/src/map/handler/Map.TouchGesture.js",
+      "../../../../../../browser/src/map/handler/Map.WOPI.js",
+      "../../../../../../browser/src/map/handler/Map.Welcome.js",
+      "../../../../../../browser/src/unocommands.js"
+    ]
+  },
+  "version": "4.2.3"
+}
